@@ -31,4 +31,28 @@ public class SimpleCalculatorApplication {
         result = subtract(number1, number2);
         System.out.println("Add result is: " + result);
     }
+
+    // multiply 2 ints
+    static int multiply(int num1, int num2){
+        int n = num1 * num2;
+        return n;
+    }
+
+    // divide 2 ints
+    static int divide(int num1, int num2){
+        int n = num1 / num2;
+        return n;
+    }
+
+    // add 2 ints
+    static int add(int num1, int num2){
+        int n = num1 + num2;
+        return n;
+    }
+
+    // subtract 1 int from another
+    static int subtract(int num1, int num2){
+        int n = num1 - num2;
+        return n;
+    }
 }
